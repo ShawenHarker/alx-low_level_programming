@@ -11,16 +11,13 @@ int main(void)
 {
 	int ch;
 
-	for (ch = '0'; ch <= '9'; ch++)
+	for (ch = 100; ch < 110; ch++)
 	{
-		putchar( ch);
-		if (ch < '9')
+		putchar(ch);
+		if (ch != 109)
 		{
-			putchar(",\ ");
-		}
-		if (ch == 9)
-		{
-			putchar("$");
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
