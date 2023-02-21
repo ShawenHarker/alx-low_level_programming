@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * _islower - return a boolean value
+ * _islower - Check c
  *
- * Return: 0
+ * Return: 1 for is lower || 0 for is not lower
  */
 int _islower(int c)
 {
