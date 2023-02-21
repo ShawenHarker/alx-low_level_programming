@@ -1,19 +1,15 @@
-#include <ctype.h>
 #include "main.h"
 
 /**
- * _islower - Enter int c
+ * _islower - Checks for lowercase characters
  *
- * Return: 1 for is lower || 0 for is not lower
+ * Return: 1 for is lowercase characters, 0 otherwise
  */
 int _islower(int c)
 {
-	if (islower(c) != 1)
+	if (c >= 97 && c <= 122)
 	{
-		return(0);
+		return (1);
 	}
-	else
-	{
-		return(1);
-	}
+	return (0);
 }
