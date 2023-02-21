@@ -1,0 +1,1 @@
+This is all about me learning about nested loops, C functions and it's structure, what is the purpose of a a function prototype and C programming header files.
