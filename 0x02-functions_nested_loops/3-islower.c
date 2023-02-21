@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _islower - Check c
+ * _islower - Check int c
  *
  * Return: 1 for is lower || 0 for is not lower
  */
