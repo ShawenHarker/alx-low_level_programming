@@ -3,7 +3,7 @@
 
 /**
  * _abs: Check int
- *
+ * @n: Check this character
  * Return: Absolute value of n or zero
  */
 int _abs(int n)
