@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _abs: Check int
+ * _abs: Computes the absolute value of an integer
  * @n: Check this character
  * Return: Absolute value of n or zero
  */
