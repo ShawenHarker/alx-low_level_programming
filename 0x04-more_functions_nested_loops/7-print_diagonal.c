@@ -15,9 +15,16 @@ void print_diagonal(int n)
 		for (count1 = 0; count1 < n; count1++)
 		{
 			for (count2 = 0; count2 < n; count2++)
-				_putchar(' ');
-			_putchar('\\');
-			_putchar('\n');
+			{
+				if (count2 == count1)
+				{
+					_putchar('\\');
+				}
+				else if (count2 < count1)
+				{
+					_putchar(' ');
+				}
+			}
 		}
 	}
 	else
