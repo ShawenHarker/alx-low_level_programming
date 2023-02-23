@@ -7,19 +7,17 @@
 
 void more_numbers(void)
 {
-	int line;
-	int count1;
-	int count2;
+	int count1, count2;
 
-	for (line = 0; line < 10; line++)
+	for (count1 = 0; count1 < 10; count1++)
 	{
-		for (count1 = '0'; count1 <= '9'; count1++)
+		for (count2 = 0; count2 <= 14; count2++)
 		{
-			_putchar(count1);
-		}
-		for (count2 = 'a'; count2 <= 'e'; count2++)
-		{
-			_putchar(count2);
+			if (count2 > 9)
+			{
+				_putchar((count2 / 10) + '0');
+				_putchar((count2 % 10) + '0');
+			}
 		}
 		_putchar('\n');
 	}
