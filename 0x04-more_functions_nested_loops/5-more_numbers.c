@@ -16,8 +16,8 @@ void more_numbers(void)
 			if (count2 > 9)
 			{
 				_putchar((count2 / 10) + '0');
-				_putchar((count2 % 10) + '0');
 			}
+				_putchar((count2 % 10) + '0');
 		}
 		_putchar('\n');
 	}
